@@ -21,20 +21,19 @@
 - **scikit-learn** ==0.24.2
 - **matplotlib** ==2.2.5
 
-SCEGAN/
-│
-├── README.md             # 项目介绍
-├── main.py               # 主程序文件
-├── data/                 # 数据集文件夹
-│   └── data.txt          # 数据文件
-├── dis_model.py          # 鉴别器模型
-├── dis_modules.py        # 鉴别器模块
-├── dis_sampler.py        # 鉴别器采样
-├── gen_model.py          # 生成器模型
-├── gen_modules.py        # 生成器模块
-├── gen_mysampler.py      # 生成器采样器 1
-├── gen_sampler.py        # 生成器采样器 2
-└── util.py               # 辅助工具文件（数据处理等）
+## 项目结构
+- `README.md`：项目介绍
+- `main.py`：主程序文件
+- `data/`：数据集文件夹
+  - `data.txt`：数据文件
+- `dis_model.py`：鉴别器模型
+- `dis_modules.py`：鉴别器模块
+- `dis_sampler.py`：鉴别器采样
+- `gen_model.py`：生成器模型
+- `gen_modules.py`：生成器模块
+- `gen_mysampler.py`：生成器采样器 1
+- `gen_sampler.py`：生成器采样器 2
+- `util.py`：辅助工具文件（数据处理等）
 
 ### 运行代码
 python main.py --dataset=data/XXX.txt --train_dir=default
