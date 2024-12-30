@@ -36,4 +36,5 @@
 - `util.py`：辅助工具文件（数据处理等）
 
 ### 运行代码
+```bash
 python main.py --dataset=data/XXX.txt --train_dir=default
