@@ -41,4 +41,4 @@
 
 ### 运行代码
 ```bash
-python main.py --dataset=data/XXX.txt --train_dir=default
+python main.py --dataset=data/XXX --train_dir=default
