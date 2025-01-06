@@ -35,8 +35,8 @@
 - `dis_sampler.py`：鉴别器采样
 - `gen_model.py`：生成器模型
 - `gen_modules.py`：生成器模块
-- `gen_mysampler.py`：生成器采样器 1
-- `gen_sampler.py`：生成器采样器 2
+- `gen_augmentation_sampler.py`：生成器增强采样器
+- `gen_sampler.py`：生成器采样器
 - `util.py`：辅助工具文件（数据处理等）
 
 ### 运行代码
